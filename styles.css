@@ -1,0 +1,52 @@
+
+* {
+margin: 0;
+padding: 0;
+}
+
+body { text-align: center; }
+ 
+.container { 
+    display: flex;
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    flex-wrap: wrap;
+    border: 1px solid black;
+
+}
+
+.top {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    align-items: center;
+
+}
+
+.bottom {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: blue;
+    width: 600px;
+}
+
+#session {
+    flex-grow: 1;
+    width: 300px;
+    background: green;
+}
+
+#break {
+    flex-grow: 1;
+    width: 300px;
+    background: green;
+}
+
+.arrow {
+    width: 100px;
+}
+
+.time {
+    width: 100px;
+}
