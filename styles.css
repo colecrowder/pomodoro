@@ -6,16 +6,18 @@ padding: 0;
 
 body {
     text-align: center;
-    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 32px;
 }
  
 .container { 
     display: flex;
     width: 600px;
     height: 400px;
-    margin: auto;
+    margin: 20px auto;
     flex-wrap: wrap;
     border: 1px solid black;
+    font-size: 32px;
 
 }
 
@@ -56,10 +58,12 @@ body {
 
 #timer {
     width: 600px;
+    font-size: 60px;
 }
 
 button {
     width: 180px;
     height: 50px;
-    margin: 10px;
+    margin: auto 10px;
+    font-size: 18px;
 }
